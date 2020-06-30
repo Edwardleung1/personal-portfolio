@@ -70,7 +70,7 @@ h2 {
 }
 h1 {
     font-size: 6rem;
-    padding-top: 8rem;
+    padding-top: 16rem;
     color: darkslategrey;
 }
 h2 {
@@ -81,6 +81,7 @@ p {
     margin-top: 1rem;
     color: red;
     font-size: 2rem;
+    padding-bottom: 12rem;
 }
 #navbar {
     position: fixed;
@@ -113,6 +114,20 @@ ul {
     text-decoration: none;
     color: white;
   }
+
+  .projects-section {
+      text-align: center;
+      padding: 10rem 2rem;
+  }
+
+  .projects-section-header {
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid var(--main-white);
+  }
+
+
+
 
   @media screen and (max-width: 600px) {
     ul,
